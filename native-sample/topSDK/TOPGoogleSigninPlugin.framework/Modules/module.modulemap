@@ -1,0 +1,6 @@
+framework module TOPGoogleSigninPlugin {
+  umbrella header "TOPGoogleSigninPlugin.h"
+
+  export *
+  module * { export * }
+}

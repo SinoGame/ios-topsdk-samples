@@ -1,0 +1,6 @@
+framework module TOPIAPPayPlugin {
+  umbrella header "TOPIAPPayPlugin.h"
+
+  export *
+  module * { export * }
+}

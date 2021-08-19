@@ -1,0 +1,26 @@
+"TOPLoginView_moreBtn" = "更多登錄方式";
+
+"TOPLoginSuccessView_welcome" = "，歡迎進入遊戲！";
+"TOPOtherLoginView_title" = "選擇登錄方式";
+
+"TOPUserCenter_title" = "用戶中心";
+"TOPUserCenter_logoutBtn" = "退出登錄";
+"TOPUserCenter_bindSectionTitle" = "綁定登錄方式";
+"TOPUserCenter_agreementSectionTitle" = "協議條款";
+"TOPUserCenter_bindCell" = "綁定";
+
+"TOPGuestLogoutAlert_title" = "提示";
+"TOPGuestLogoutAlert_content" = "親愛的玩家，遊客賬號退出登錄可能會導致您的賬號丟失，請盡快綁定成為正式賬號，以保障您的賬號安全。";
+"TOPGuestLogoutAlert_leftBtn" = "退出登錄";
+"TOPGuestLogoutAlert_rightBtn" = "前往綁定";
+
+"TOPGuestPayAlert_title" = "提示";
+"TOPGuestPayAlert_content" = "親愛的玩家，遊客賬號不能進行支付，請綁定成為正式賬號以保障您的賬號安全。";
+"TOPGuestPayAlert_leftBtn" = "取消";
+"TOPGuestPayAlert_rightBtn" = "前往綁定";
+
+"TOPAgreementAlertView_title" = "協議條款";
+"TOPAgreementAlertView_content" = "為了進行遊戲，您需要同意以下條款";
+"TOPAgreementAlertView_cancelBtn" = "取消";
+"TOPAgreementAlertView_submitBtn" = "全部同意並開始";
+"TOPAgreementAlertView_viewBtn" = "查看";

@@ -1,0 +1,6 @@
+framework module TOPUIPlugin {
+  umbrella header "TOPUIPlugin.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,26 @@
+"TOPLoginView_moreBtn" = "更多登录方式";
+
+"TOPLoginSuccessView_welcome" = "，欢迎进入游戏！";
+"TOPOtherLoginView_title" = "选择登录方式";
+
+"TOPUserCenter_title" = "用户中心";
+"TOPUserCenter_logoutBtn" = "退出登录";
+"TOPUserCenter_bindSectionTitle" = "绑定登录方式";
+"TOPUserCenter_agreementSectionTitle" = "协议条款";
+"TOPUserCenter_bindCell" = "绑定";
+
+"TOPGuestLogoutAlert_title" = "提示";
+"TOPGuestLogoutAlert_content" = "亲爱的玩家，游客账号退出登录可能会导致您的账号丢失，请尽快绑定成为正式账号，以保障您的账号安全。";
+"TOPGuestLogoutAlert_leftBtn" = "退出登录";
+"TOPGuestLogoutAlert_rightBtn" = "前往绑定";
+
+"TOPGuestPayAlert_title" = "提示";
+"TOPGuestPayAlert_content" = "亲爱的玩家，游客账号不能进行支付，请绑定成为正式账号以保障您的账号安全。";
+"TOPGuestPayAlert_leftBtn" = "取消";
+"TOPGuestPayAlert_rightBtn" = "前往绑定";
+
+"TOPAgreementAlertView_title" = "协议条款";
+"TOPAgreementAlertView_content" = "为了进行游戏，您需要同意以下条款";
+"TOPAgreementAlertView_cancelBtn" = "取消";
+"TOPAgreementAlertView_submitBtn" = "全部同意并开始";
+"TOPAgreementAlertView_viewBtn" = "查看";

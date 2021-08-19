@@ -1,0 +1,6 @@
+framework module TOPCore {
+  umbrella header "TOPCore.h"
+
+  export *
+  module * { export * }
+}

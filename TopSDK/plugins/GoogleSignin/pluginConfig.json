@@ -1,0 +1,61 @@
+{
+  "name": "GoogleSignin",
+  "type": 0,
+  "pluginVersion": "1.4.0.1",
+  "sources": [
+    "GoogleSignIn.bundle"
+  ],
+  "frameworks": [
+    {
+      "name": "TOPGoogleSigninPlugin.framework",
+      "system": false,
+      "embed": false
+    },
+    {
+      "name": "GoogleSignInDependencies.framework",
+      "system": false,
+      "embed": false
+    },
+    {
+      "name": "GoogleSignIn.framework",
+      "system": false,
+      "embed": false
+    },
+    {
+      "name": "LocalAuthentication.framework",
+      "system": true,
+      "embed": false
+    },
+    {
+      "name": "SafariServices.framework",
+      "system": true,
+      "embed": false
+    },
+    {
+      "name": "AuthenticationServices.framework",
+      "system": true,
+      "embed": false
+    },
+    {
+      "name": "SystemConfiguration.framework",
+      "system": true,
+      "embed": false
+    }
+  ],
+  "libs": [],
+  "buildSettings": {},
+  "OtherLinkerFlags": [
+    "-ObjC"
+  ],
+  "queriesSchemes": [],
+  "infoParams": {},
+  "requireConfigs": [
+    "GOOGLE.scheme",
+    "GOOGLE.clientId"
+  ],
+  "pluginParams": {
+    "CLIENT_ID" : "{$C.GOOGLE.clientId}",
+    "REVERSED_CLIENT_ID" : "{$C.GOOGLE.scheme}"
+  },
+  "urlScheme": "{$C.GOOGLE.scheme}"
+}

@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "TopSDK"; ObjectID = "1VS-Vx-Ytk"; */
+"1VS-Vx-Ytk.text" = "TopSDK";
+
+/* Class = "UIButton"; normalTitle = "登出"; ObjectID = "CPO-du-pzn"; */
+"CPO-du-pzn.normalTitle" = "登出";
+
+/* Class = "UIButton"; normalTitle = "登录"; ObjectID = "Nhf-3d-zfg"; */
+"Nhf-3d-zfg.normalTitle" = "登录";
+
+/* Class = "UIButton"; normalTitle = "绑定Google"; ObjectID = "OU7-0c-wFD"; */
+"OU7-0c-wFD.normalTitle" = "绑定Google";
+
+/* Class = "UIButton"; normalTitle = "获取用户信息"; ObjectID = "P9M-P0-CQm"; */
+"P9M-P0-CQm.normalTitle" = "获取用户信息";
+
+/* Class = "UIButton"; normalTitle = "支付"; ObjectID = "QFD-Yg-MX1"; */
+"QFD-Yg-MX1.normalTitle" = "支付";
+
+/* Class = "UIButton"; normalTitle = "进入用户中心"; ObjectID = "U4k-Xr-DLu"; */
+"U4k-Xr-DLu.normalTitle" = "进入用户中心";
+
+/* Class = "UIButton"; normalTitle = "获取绑定信息"; ObjectID = "u2k-We-qip"; */
+"u2k-We-qip.normalTitle" = "获取绑定信息";

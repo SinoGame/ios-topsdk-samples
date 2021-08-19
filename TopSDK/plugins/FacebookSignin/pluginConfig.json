@@ -1,0 +1,115 @@
+{
+  "name": "FacebookSignin",
+  "type": 0,
+  "pluginVersion": "1.4.0.1",
+  "sources": [],
+  "frameworks": [
+    {
+      "name": "TOPFacebookSigninPlugin.framework",
+      "system": false,
+      "embed": false
+    },
+    {
+      "name": "FBSDKCoreKit.framework",
+      "system": false,
+      "embed": true
+    },
+    {
+      "name": "FBSDKLoginKit.framework",
+      "system": false,
+      "embed": true
+    },
+    {
+      "name": "Accelerate.framework",
+      "system": true,
+      "embed": false
+    },
+    {
+      "name": "Accounts.framework",
+      "system": true,
+      "embed": false
+    },
+    {
+      "name": "AdSupport.framework",
+      "system": true,
+      "embed": false
+    },
+    {
+      "name": "Social.framework",
+      "system": true,
+      "embed": false
+    },
+    {
+      "name": "Security.framework",
+      "system": true,
+      "embed": false
+    },
+    {
+      "name": "StoreKit.framework",
+      "system": true,
+      "embed": false
+    },
+    {
+      "name": "QuartzCore.framework",
+      "system": true,
+      "embed": false
+    },
+    {
+      "name": "CoreGraphics.framework",
+      "system": true,
+      "embed": false
+    },
+    {
+      "name": "AudioToolbox.framework",
+      "system": true,
+      "embed": false
+    }
+  ],
+  "libs": [
+    {
+      "name": "libc++.tbd",
+      "system": true
+    },
+    {
+      "name": "libz.tbd",
+      "system": true
+    }
+  ],
+  "buildSettings": {
+    "VALIDATE_WORKSPACE": "YES",
+    "ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES": "YES"
+  },
+  "OtherLinkerFlags": [],
+  "queriesSchemes": [
+    "fbapi",
+    "fbapi20130214",
+    "fbapi20130410",
+    "fbapi20130702",
+    "fbapi20131010",
+    "fbapi20131219",
+    "fbapi20140410",
+    "fbapi20140116",
+    "fbapi20150313",
+    "fbapi20150629",
+    "fbapi20160328",
+    "fbauth",
+    "fb-messenger-share-api",
+    "fbauth2",
+    "fbshareextension"
+  ],
+  "infoParams": {
+    "FacebookAppID": "{$C.FACEBOOK.clientId}",
+    "FacebookDisplayName": "{$C.FACEBOOK.name}"
+  },
+  "requireConfigs": [
+    "FACEBOOK.clientId",
+    "FACEBOOK.name",
+    "FACEBOOK.scheme"
+  ],
+  "pluginParams": {
+    "APP_ID" : "{$C.FACEBOOK.clientId}",
+    "DISPLAY_NAME" : "{$C.FACEBOOK.name}",
+    "URL_SCHEME" : "{$C.FACEBOOK.scheme}"
+  },
+  "urlScheme": "{$C.FACEBOOK.scheme}"
+}

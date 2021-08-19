@@ -1,0 +1,6 @@
+framework module TOPAppleSigninPlugin {
+  umbrella header "TOPAppleSigninPlugin.h"
+
+  export *
+  module * { export * }
+}

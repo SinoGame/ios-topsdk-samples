@@ -1,0 +1,6 @@
+framework module TOPGuestSigninPlugin {
+  umbrella header "TOPGuestSigninPlugin.h"
+
+  export *
+  module * { export * }
+}

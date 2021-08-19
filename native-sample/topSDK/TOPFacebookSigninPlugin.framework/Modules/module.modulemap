@@ -1,0 +1,6 @@
+framework module TOPFacebookSigninPlugin {
+  umbrella header "TOPFacebookSigninPlugin.h"
+
+  export *
+  module * { export * }
+}

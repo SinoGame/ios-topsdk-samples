@@ -1,0 +1,23 @@
+{
+  "name": "GuestSignin",
+  "type": 0,
+  "pluginVersion": "1.4.0.1",
+  "sources": [],
+  "frameworks": [
+    {
+      "name": "TOPGuestSigninPlugin.framework",
+      "system": false,
+      "embed": false
+    }
+  ],
+  "libs": [],
+  "buildSettings": {},
+  "OtherLinkerFlags": [
+    "-ObjC"
+  ],
+  "queriesSchemes": [],
+  "infoParams": {},
+  "requireConfigs": [],
+  "pluginParams": {},
+  "urlScheme": ""
+}

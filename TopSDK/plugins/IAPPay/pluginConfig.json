@@ -1,0 +1,26 @@
+{
+  "name": "IAPPay",
+  "type": 1,
+  "pluginVersion": "1.4.0.1",
+  "sources": [],
+  "frameworks": [
+    {
+      "name": "TOPIAPPayPlugin.framework",
+      "system": false,
+      "embed": false
+    },
+    {
+      "name": "StoreKit.framework",
+      "system": true,
+      "embed": false
+    }
+  ],
+  "libs": [],
+  "buildSettings": {},
+  "OtherLinkerFlags": [],
+  "queriesSchemes": [],
+  "infoParams": {},
+  "requireConfigs": [],
+  "pluginParams": {},
+  "urlScheme": ""
+}

@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02B745DD858ABCF4E660892E /* TOPCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0B486BA3598460DFDD7EE2 /* TOPCore.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		06894D9BA5E2E54CCFDB1D6A /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0448E693BDFF9E416AFAF5 /* Accounts.framework */; };
+		0D394CF1B592C7BF177AB10F /* TopSDKModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2403CA091F6CCD3C2ACC6 /* TopSDKModel.xcdatamodeld */; };
+		0E6B4612A29F219700AEF8EE /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53864687BB7C69BEBAA9F45C /* FBSDKLoginKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		23F64A9385AFCABEB43DF45A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE8425DB33290B77AE4E7E5 /* Security.framework */; };
+		257C4D059033C37E311CE8FC /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AC724071ACDAB5584D5FE399 /* GoogleSignIn.bundle */; };
+		266D4D3E8A270D6D9283CFD4 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724B4A838C837287D7F88579 /* CoreTelephony.framework */; };
+		2CA3BEF426CDF4C6002F661A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA3BEF326CDF4C6002F661A /* AppDelegate.m */; };
+		2CA3BEF726CDF4C6002F661A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA3BEF626CDF4C6002F661A /* SceneDelegate.m */; };
+		2CA3BEFA26CDF4C6002F661A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA3BEF926CDF4C6002F661A /* ViewController.m */; };
+		2CA3BEFD26CDF4C6002F661A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA3BEFB26CDF4C6002F661A /* Main.storyboard */; };
+		2CA3BEFF26CDF4C7002F661A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CA3BEFE26CDF4C7002F661A /* Assets.xcassets */; };
+		2CA3BF0226CDF4C7002F661A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA3BF0026CDF4C7002F661A /* LaunchScreen.storyboard */; };
+		2CA3BF0526CDF4C7002F661A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA3BF0426CDF4C7002F661A /* main.m */; };
+		2F364607B9BBCB0F11935277 /* FBSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C589485CA71299A639A0CDC0 /* FBSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		312B433CA4F603C3451256C4 /* TOPGuestSigninPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45A4934B7688C6C2D6130F7 /* TOPGuestSigninPlugin.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		319449A78A86D4DD40026497 /* TOPIAPPayPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF44D97BAF95EC1152706E5 /* TOPIAPPayPlugin.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		338E47F392DDAE8920111778 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50B491AB2B466BD22D24C30 /* LocalAuthentication.framework */; };
+		34344127A120C13247E6B883 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 418D42E588CA680113FA6C8F /* SystemConfiguration.framework */; };
+		36114F2AAD6923BB57CC05DE /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C7483283DA530E1E0140A3 /* Social.framework */; };
+		489C4710A5CA05D2F792438A /* TOPGoogleSigninPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35E49518B1BAA587DA8F4AC /* TOPGoogleSigninPlugin.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		494D4098950243E5204787D1 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FB40E0ABF87AFE879BC7A5 /* GoogleSignIn.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		5758400483E34B8502946666 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C54D98A7E66C5AD350CEB7 /* AdSupport.framework */; };
+		5E00462DB51922C9E98DFFE7 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E94375A9686E62249C740F /* libz.tbd */; };
+		621641B7BEAAE83D1A7C829B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAA4ADAB5AE1BDFAD594407 /* AudioToolbox.framework */; };
+		808042B598AA73F50390EEB4 /* TOPUIPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD73471490D1A19A7E0F1CE0 /* TOPUIPlugin.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		8C08499AB536D6450E686609 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4D46A999E4B4C33E0C78DA /* GoogleSignInDependencies.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		943E45CA8859D41861E5D361 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413441F0A90C23C30290E8F0 /* StoreKit.framework */; };
+		98924BF0A7D623AEDAF475E9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 908F46B48B43C15E566D6F67 /* libc++.tbd */; };
+		9ACD4AB2BE5154F2032C3893 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659843138124111095809B88 /* QuartzCore.framework */; };
+		A4F04B34876FF68C3CECF631 /* TOPAppleSigninPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B464C1DB862B0DFD745507D /* TOPAppleSigninPlugin.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C5F046C894B558EF6BD776A0 /* FBSDKLoginKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 53864687BB7C69BEBAA9F45C /* FBSDKLoginKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C6E649C6B5FA299CF1E3A789 /* TOPFacebookSigninPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E74DF2B293B70E16BF6407 /* TOPFacebookSigninPlugin.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D3A542019E0A8163A93A2A54 /* TopSDKSource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4708452F813C253E2F385466 /* TopSDKSource.bundle */; };
+		D51D4FF2B2351D2B8B25B0C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9348C4B394E08322531370 /* CoreGraphics.framework */; };
+		DE824E44B8129414D0E045FD /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FCA47BFB0A08085C9D6889B /* Accelerate.framework */; };
+		DED14297BBEC890FC70C6A9F /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1442FAA85B91539B23F46D /* SafariServices.framework */; };
+		F38F4BADA97FE03FADD8432C /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFA484D958F4434BF662F7C /* AuthenticationServices.framework */; };
+		F43C4412B5572BBA26789EBA /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C589485CA71299A639A0CDC0 /* FBSDKCoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		17584D8F88401280DE40C5B8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2F364607B9BBCB0F11935277 /* FBSDKCoreKit.framework in Embed Frameworks */,
+				C5F046C894B558EF6BD776A0 /* FBSDKLoginKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2CA3BEEF26CDF4C6002F661A /* native-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "native-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA3BEF226CDF4C6002F661A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2CA3BEF326CDF4C6002F661A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2CA3BEF526CDF4C6002F661A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2CA3BEF626CDF4C6002F661A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2CA3BEF826CDF4C6002F661A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2CA3BEF926CDF4C6002F661A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2CA3BEFC26CDF4C6002F661A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CA3BEFE26CDF4C7002F661A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CA3BF0126CDF4C7002F661A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CA3BF0326CDF4C7002F661A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CA3BF0426CDF4C7002F661A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CA3BF0B26CDFA68002F661A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		2CA3BF0C26CDFA68002F661A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		2CA3BF0D26CDFA6D002F661A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		2CA3BF0E26CDFA6D002F661A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		2CA3BF0F26CDFA72002F661A /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Main.strings"; sourceTree = "<group>"; };
+		2CA3BF1026CDFA72002F661A /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		2CA3BF1126CDFA88002F661A /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		2CA3BF1226CDFA88002F661A /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		3B464C1DB862B0DFD745507D /* TOPAppleSigninPlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TOPAppleSigninPlugin.framework; path = topSDK/TOPAppleSigninPlugin.framework; sourceTree = SOURCE_ROOT; };
+		413441F0A90C23C30290E8F0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		418D42E588CA680113FA6C8F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4708452F813C253E2F385466 /* TopSDKSource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TopSDKSource.bundle; path = topSDK/TopSDKSource.bundle; sourceTree = SOURCE_ROOT; };
+		4BE2403CA091F6CCD3C2ACC6 /* TopSDKModel.xcdatamodeld */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; name = TopSDKModel.xcdatamodeld; path = topSDK/TopSDKModel.xcdatamodeld; sourceTree = SOURCE_ROOT; };
+		53864687BB7C69BEBAA9F45C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = topSDK/FBSDKLoginKit.framework; sourceTree = SOURCE_ROOT; };
+		5FCA47BFB0A08085C9D6889B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		659843138124111095809B88 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6A4D46A999E4B4C33E0C78DA /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignInDependencies.framework; path = topSDK/GoogleSignInDependencies.framework; sourceTree = SOURCE_ROOT; };
+		6E0B486BA3598460DFDD7EE2 /* TOPCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TOPCore.framework; path = topSDK/TOPCore.framework; sourceTree = SOURCE_ROOT; };
+		724B4A838C837287D7F88579 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		87FB40E0ABF87AFE879BC7A5 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = topSDK/GoogleSignIn.framework; sourceTree = SOURCE_ROOT; };
+		908F46B48B43C15E566D6F67 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		93E94375A9686E62249C740F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9AF44D97BAF95EC1152706E5 /* TOPIAPPayPlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TOPIAPPayPlugin.framework; path = topSDK/TOPIAPPayPlugin.framework; sourceTree = SOURCE_ROOT; };
+		9B9348C4B394E08322531370 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC724071ACDAB5584D5FE399 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = topSDK/GoogleSignIn.bundle; sourceTree = SOURCE_ROOT; };
+		AE0448E693BDFF9E416AFAF5 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		BB1442FAA85B91539B23F46D /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		C589485CA71299A639A0CDC0 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = topSDK/FBSDKCoreKit.framework; sourceTree = SOURCE_ROOT; };
+		CDAA4ADAB5AE1BDFAD594407 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CDE8425DB33290B77AE4E7E5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D2E74DF2B293B70E16BF6407 /* TOPFacebookSigninPlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TOPFacebookSigninPlugin.framework; path = topSDK/TOPFacebookSigninPlugin.framework; sourceTree = SOURCE_ROOT; };
+		E1C54D98A7E66C5AD350CEB7 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		F35E49518B1BAA587DA8F4AC /* TOPGoogleSigninPlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TOPGoogleSigninPlugin.framework; path = topSDK/TOPGoogleSigninPlugin.framework; sourceTree = SOURCE_ROOT; };
+		F45A4934B7688C6C2D6130F7 /* TOPGuestSigninPlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TOPGuestSigninPlugin.framework; path = topSDK/TOPGuestSigninPlugin.framework; sourceTree = SOURCE_ROOT; };
+		F4C7483283DA530E1E0140A3 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		F50B491AB2B466BD22D24C30 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		FAFA484D958F4434BF662F7C /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		FD73471490D1A19A7E0F1CE0 /* TOPUIPlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TOPUIPlugin.framework; path = topSDK/TOPUIPlugin.framework; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CA3BEEC26CDF4C6002F661A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B745DD858ABCF4E660892E /* TOPCore.framework in Frameworks */,
+				266D4D3E8A270D6D9283CFD4 /* CoreTelephony.framework in Frameworks */,
+				312B433CA4F603C3451256C4 /* TOPGuestSigninPlugin.framework in Frameworks */,
+				808042B598AA73F50390EEB4 /* TOPUIPlugin.framework in Frameworks */,
+				319449A78A86D4DD40026497 /* TOPIAPPayPlugin.framework in Frameworks */,
+				C6E649C6B5FA299CF1E3A789 /* TOPFacebookSigninPlugin.framework in Frameworks */,
+				F43C4412B5572BBA26789EBA /* FBSDKCoreKit.framework in Frameworks */,
+				0E6B4612A29F219700AEF8EE /* FBSDKLoginKit.framework in Frameworks */,
+				DE824E44B8129414D0E045FD /* Accelerate.framework in Frameworks */,
+				06894D9BA5E2E54CCFDB1D6A /* Accounts.framework in Frameworks */,
+				5758400483E34B8502946666 /* AdSupport.framework in Frameworks */,
+				36114F2AAD6923BB57CC05DE /* Social.framework in Frameworks */,
+				23F64A9385AFCABEB43DF45A /* Security.framework in Frameworks */,
+				943E45CA8859D41861E5D361 /* StoreKit.framework in Frameworks */,
+				9ACD4AB2BE5154F2032C3893 /* QuartzCore.framework in Frameworks */,
+				D51D4FF2B2351D2B8B25B0C0 /* CoreGraphics.framework in Frameworks */,
+				621641B7BEAAE83D1A7C829B /* AudioToolbox.framework in Frameworks */,
+				98924BF0A7D623AEDAF475E9 /* libc++.tbd in Frameworks */,
+				5E00462DB51922C9E98DFFE7 /* libz.tbd in Frameworks */,
+				489C4710A5CA05D2F792438A /* TOPGoogleSigninPlugin.framework in Frameworks */,
+				8C08499AB536D6450E686609 /* GoogleSignInDependencies.framework in Frameworks */,
+				494D4098950243E5204787D1 /* GoogleSignIn.framework in Frameworks */,
+				338E47F392DDAE8920111778 /* LocalAuthentication.framework in Frameworks */,
+				DED14297BBEC890FC70C6A9F /* SafariServices.framework in Frameworks */,
+				34344127A120C13247E6B883 /* SystemConfiguration.framework in Frameworks */,
+				F38F4BADA97FE03FADD8432C /* AuthenticationServices.framework in Frameworks */,
+				A4F04B34876FF68C3CECF631 /* TOPAppleSigninPlugin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CA3BEE626CDF4C6002F661A = {
+			isa = PBXGroup;
+			children = (
+				2CA3BEF126CDF4C6002F661A /* native-sample */,
+				2CA3BEF026CDF4C6002F661A /* Products */,
+				4BE2403CA091F6CCD3C2ACC6 /* TopSDKModel.xcdatamodeld */,
+				4708452F813C253E2F385466 /* TopSDKSource.bundle */,
+				42154A7397C1BA76FC8DDBBA /* Frameworks */,
+				AC724071ACDAB5584D5FE399 /* GoogleSignIn.bundle */,
+			);
+			sourceTree = "<group>";
+		};
+		2CA3BEF026CDF4C6002F661A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CA3BEEF26CDF4C6002F661A /* native-sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CA3BEF126CDF4C6002F661A /* native-sample */ = {
+			isa = PBXGroup;
+			children = (
+				2CA3BEF226CDF4C6002F661A /* AppDelegate.h */,
+				2CA3BEF326CDF4C6002F661A /* AppDelegate.m */,
+				2CA3BEF526CDF4C6002F661A /* SceneDelegate.h */,
+				2CA3BEF626CDF4C6002F661A /* SceneDelegate.m */,
+				2CA3BEF826CDF4C6002F661A /* ViewController.h */,
+				2CA3BEF926CDF4C6002F661A /* ViewController.m */,
+				2CA3BEFB26CDF4C6002F661A /* Main.storyboard */,
+				2CA3BEFE26CDF4C7002F661A /* Assets.xcassets */,
+				2CA3BF0026CDF4C7002F661A /* LaunchScreen.storyboard */,
+				2CA3BF0326CDF4C7002F661A /* Info.plist */,
+				2CA3BF0426CDF4C7002F661A /* main.m */,
+			);
+			path = "native-sample";
+			sourceTree = "<group>";
+		};
+		42154A7397C1BA76FC8DDBBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E0B486BA3598460DFDD7EE2 /* TOPCore.framework */,
+				724B4A838C837287D7F88579 /* CoreTelephony.framework */,
+				F45A4934B7688C6C2D6130F7 /* TOPGuestSigninPlugin.framework */,
+				FD73471490D1A19A7E0F1CE0 /* TOPUIPlugin.framework */,
+				9AF44D97BAF95EC1152706E5 /* TOPIAPPayPlugin.framework */,
+				D2E74DF2B293B70E16BF6407 /* TOPFacebookSigninPlugin.framework */,
+				C589485CA71299A639A0CDC0 /* FBSDKCoreKit.framework */,
+				53864687BB7C69BEBAA9F45C /* FBSDKLoginKit.framework */,
+				5FCA47BFB0A08085C9D6889B /* Accelerate.framework */,
+				AE0448E693BDFF9E416AFAF5 /* Accounts.framework */,
+				E1C54D98A7E66C5AD350CEB7 /* AdSupport.framework */,
+				F4C7483283DA530E1E0140A3 /* Social.framework */,
+				CDE8425DB33290B77AE4E7E5 /* Security.framework */,
+				413441F0A90C23C30290E8F0 /* StoreKit.framework */,
+				659843138124111095809B88 /* QuartzCore.framework */,
+				9B9348C4B394E08322531370 /* CoreGraphics.framework */,
+				CDAA4ADAB5AE1BDFAD594407 /* AudioToolbox.framework */,
+				908F46B48B43C15E566D6F67 /* libc++.tbd */,
+				93E94375A9686E62249C740F /* libz.tbd */,
+				F35E49518B1BAA587DA8F4AC /* TOPGoogleSigninPlugin.framework */,
+				6A4D46A999E4B4C33E0C78DA /* GoogleSignInDependencies.framework */,
+				87FB40E0ABF87AFE879BC7A5 /* GoogleSignIn.framework */,
+				F50B491AB2B466BD22D24C30 /* LocalAuthentication.framework */,
+				BB1442FAA85B91539B23F46D /* SafariServices.framework */,
+				418D42E588CA680113FA6C8F /* SystemConfiguration.framework */,
+				FAFA484D958F4434BF662F7C /* AuthenticationServices.framework */,
+				3B464C1DB862B0DFD745507D /* TOPAppleSigninPlugin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CA3BEEE26CDF4C6002F661A /* native-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CA3BF0826CDF4C7002F661A /* Build configuration list for PBXNativeTarget "native-sample" */;
+			buildPhases = (
+				2CA3BEEB26CDF4C6002F661A /* Sources */,
+				2CA3BEEC26CDF4C6002F661A /* Frameworks */,
+				2CA3BEED26CDF4C6002F661A /* Resources */,
+				17584D8F88401280DE40C5B8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "native-sample";
+			productName = "native-sample";
+			productReference = 2CA3BEEF26CDF4C6002F661A /* native-sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CA3BEE726CDF4C6002F661A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2CA3BEEE26CDF4C6002F661A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 2CA3BEEA26CDF4C6002F661A /* Build configuration list for PBXProject "native-sample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+				"zh-Hans",
+				"zh-HK",
+				ko,
+			);
+			mainGroup = 2CA3BEE626CDF4C6002F661A;
+			productRefGroup = 2CA3BEF026CDF4C6002F661A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CA3BEEE26CDF4C6002F661A /* native-sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CA3BEED26CDF4C6002F661A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA3BF0226CDF4C7002F661A /* LaunchScreen.storyboard in Resources */,
+				2CA3BEFF26CDF4C7002F661A /* Assets.xcassets in Resources */,
+				2CA3BEFD26CDF4C6002F661A /* Main.storyboard in Resources */,
+				D3A542019E0A8163A93A2A54 /* TopSDKSource.bundle in Resources */,
+				257C4D059033C37E311CE8FC /* GoogleSignIn.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CA3BEEB26CDF4C6002F661A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA3BEFA26CDF4C6002F661A /* ViewController.m in Sources */,
+				2CA3BEF426CDF4C6002F661A /* AppDelegate.m in Sources */,
+				2CA3BF0526CDF4C7002F661A /* main.m in Sources */,
+				2CA3BEF726CDF4C6002F661A /* SceneDelegate.m in Sources */,
+				0D394CF1B592C7BF177AB10F /* TopSDKModel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2CA3BEFB26CDF4C6002F661A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CA3BEFC26CDF4C6002F661A /* Base */,
+				2CA3BF0B26CDFA68002F661A /* ar */,
+				2CA3BF0D26CDFA6D002F661A /* zh-Hans */,
+				2CA3BF0F26CDFA72002F661A /* zh-HK */,
+				2CA3BF1126CDFA88002F661A /* ko */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CA3BF0026CDF4C7002F661A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CA3BF0126CDF4C7002F661A /* Base */,
+				2CA3BF0C26CDFA68002F661A /* ar */,
+				2CA3BF0E26CDFA6D002F661A /* zh-Hans */,
+				2CA3BF1026CDFA72002F661A /* zh-HK */,
+				2CA3BF1226CDFA88002F661A /* ko */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CA3BF0626CDF4C7002F661A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2CA3BF0726CDF4C7002F661A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CA3BF0926CDF4C7002F661A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "native-sample/native-sample.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R542DS95C9;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/topSDK",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "native-sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gameplus.sdkdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Debug;
+		};
+		2CA3BF0A26CDF4C7002F661A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "native-sample/native-sample.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R542DS95C9;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/topSDK",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "native-sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gameplus.sdkdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CA3BEEA26CDF4C6002F661A /* Build configuration list for PBXProject "native-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA3BF0626CDF4C7002F661A /* Debug */,
+				2CA3BF0726CDF4C7002F661A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CA3BF0826CDF4C7002F661A /* Build configuration list for PBXNativeTarget "native-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA3BF0926CDF4C7002F661A /* Debug */,
+				2CA3BF0A26CDF4C7002F661A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CA3BEE726CDF4C6002F661A /* Project object */;
+}

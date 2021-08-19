@@ -1,0 +1,23 @@
+{
+  "name": "UI",
+  "type": 2,
+  "pluginVersion": "1.4.0.1",
+  "sources": [],
+  "frameworks": [
+    {
+      "name": "TOPUIPlugin.framework",
+      "system": false,
+      "embed": false
+    }
+  ],
+  "libs": [],
+  "buildSettings": {},
+  "OtherLinkerFlags": [
+    "-ObjC"
+  ],
+  "queriesSchemes": [],
+  "infoParams": {},
+  "requireConfigs": [],
+  "pluginParams": {},
+  "urlScheme": ""
+}
