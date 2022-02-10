@@ -6,7 +6,7 @@
 //
 
 #import "TOPSDKCocosPlugin.h"
-#import <TOPCore/TOPCore.h>
+#import <TOPSDK/TopSDK.h>
 
 #include "cocos/bindings/jswrapper/SeApi.h"
 #include "cocos/platform/Application.h"

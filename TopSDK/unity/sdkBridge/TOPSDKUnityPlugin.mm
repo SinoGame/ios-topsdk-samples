@@ -6,7 +6,7 @@
 //
 
 #import "TOPSDKUnityPlugin.h"
-#import <TOPCore/TOPCore.h>
+#import <TOPSDK/TopSDK.h>
 
 @interface TOPSDKUnityPlugin()<TopSDKDelegate>
 

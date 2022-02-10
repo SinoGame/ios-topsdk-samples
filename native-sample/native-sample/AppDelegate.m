@@ -6,9 +6,9 @@
 //
 
 #import "AppDelegate.h"
-#import <TOPCore/TOPCore.h>
+#import <TOPSDK/TopSDK.h>
 
-@interface AppDelegate ()<TopSDKDelegate>
+@interface AppDelegate ()
 
 @end
 
@@ -16,9 +16,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [TopSDK.sharedInstance application:application didFinishLaunchingWithOptions:launchOptions];
     TopSDK.sharedInstance.delegate = self;
     [TopSDK.sharedInstance initWithAppId:@"132168550394630144"];
-    [TopSDK.sharedInstance application:application didFinishLaunchingWithOptions:launchOptions];
     return YES;
 }
 
@@ -43,10 +43,12 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     [TopSDK.sharedInstance applicationDidEnterBackground:application];
+    
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     [TopSDK.sharedInstance applicationWillEnterForeground:application];
+    
 }
 
 - (void)showAlertWithTitle:(NSString *)title content:(NSString *)content {

@@ -2,7 +2,7 @@
 //  TOPCore.h
 //  TOPCore
 //
-//  Created by lyj on 2021/4/8.
+//  Created by lyj on 2021/11/1.
 //
 
 #import <Foundation/Foundation.h>
@@ -15,9 +15,14 @@ FOUNDATION_EXPORT const unsigned char TOPCoreVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <TOPCore/PublicHeader.h>
 
-#import <TOPCore/TopSDK.h>
-#import <TOPCore/TOPConstants.h>
-#import <TOPCore/TOPUser.h>
-#import <TOPCore/TOPPayment.h>
-#import <TOPCore/TOPRoleInfo.h>
-#import <TOPCore/TOPUserManager.h>
+#import <TOPCore/TOPCoreManager.h>
+#import <TOPCore/TOPCoreDefine.h>
+#import <TOPCore/TOPRequest.h>
+#import <TOPCore/TOPUrl.h>
+#import <TOPCore/TOPTool.h>
+#import <TOPCore/TOPLog.h>
+#import <TOPCore/TOPLogHelper.h>
+#import <TOPCore/TOPEvent.h>
+#import <TOPCore/TOPEventHelper.h>
+#import <TOPCore/TOPDataModel.h>
+#import <TOPCore/TOPHelper.h>

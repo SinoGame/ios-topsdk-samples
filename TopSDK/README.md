@@ -1,4 +1,4 @@
-工具版本：v1.4.0.1
+工具版本：v1.4.3.1
 
 ### 1 简介
 
@@ -8,7 +8,7 @@
 
 ### 2 使用说明
 
-使用说明请查看 [SDK在线Wiki](https://open-gameplus.meetsocial.com/sdk-wiki/)
+使用说明请查看 [SDK在线Wiki](https://open-gameplus-sdk-wiki-k8.meetsocial.com)
 
 
 

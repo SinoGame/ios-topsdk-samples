@@ -4,13 +4,37 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FBSDKCoreKit</key>
+		<data>
+		Cm65/9xdLhsoQgybwQGj5iHQGsg=
+		</data>
+		<key>Frameworks/FBSDKCoreKit.framework/Info.plist</key>
+		<data>
+		hhmbB8ipefASqQewuFJMJoRf27Q=
+		</data>
+		<key>Frameworks/FBSDKCoreKit.framework/_CodeSignature/CodeResources</key>
+		<data>
+		XDXdWzEhnqQ3Sep0JI8t9EaGMAg=
+		</data>
+		<key>Frameworks/FBSDKLoginKit.framework/FBSDKLoginKit</key>
+		<data>
+		9v9YJrqZ2Uitt2HOksKkGhBzW/4=
+		</data>
+		<key>Frameworks/FBSDKLoginKit.framework/Info.plist</key>
+		<data>
+		x7ZdOEubyO65mkgS4ViCVR+QEkg=
+		</data>
+		<key>Frameworks/FBSDKLoginKit.framework/_CodeSignature/CodeResources</key>
+		<data>
+		x0oHFp+LdBaUYTRcA2b1jUhgDtU=
+		</data>
 		<key>Headers/TOPFacebookSigninPlugin.h</key>
 		<data>
-		orOA0PSKtqYxgRPAQQPKfOd3UFY=
+		QkcBEu33wGGrEML1fVmhGmhv+dg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FoW6HHW/4yuEwfEVryAFJd5qE1E=
+		ztJJd3H255iNuie1xCirwOgV0IY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -19,15 +43,81 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FBSDKCoreKit</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Cm65/9xdLhsoQgybwQGj5iHQGsg=
+			</data>
+			<key>hash2</key>
+			<data>
+			DYHunqpovRf2H86NYVyvJdWy7vVmHj32L6tFWIGo6+0=
+			</data>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hhmbB8ipefASqQewuFJMJoRf27Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			9m8caafuL2OFf1LwbJbDzTPzLi8myPWNm9qvOMuqfcs=
+			</data>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XDXdWzEhnqQ3Sep0JI8t9EaGMAg=
+			</data>
+			<key>hash2</key>
+			<data>
+			ptGs1pXzA661P1sitxHkLbyMA+fw8Z/+3jabfOZPpbM=
+			</data>
+		</dict>
+		<key>Frameworks/FBSDKLoginKit.framework/FBSDKLoginKit</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9v9YJrqZ2Uitt2HOksKkGhBzW/4=
+			</data>
+			<key>hash2</key>
+			<data>
+			opH1LlaXGXo5Vsi2qjtTjQj78JRxuWuJ1GiFlnaOo7A=
+			</data>
+		</dict>
+		<key>Frameworks/FBSDKLoginKit.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			x7ZdOEubyO65mkgS4ViCVR+QEkg=
+			</data>
+			<key>hash2</key>
+			<data>
+			WoF7bxTNqrfj4J7EI7x6wFB0R1as9JkX58CtZ415AyE=
+			</data>
+		</dict>
+		<key>Frameworks/FBSDKLoginKit.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			x0oHFp+LdBaUYTRcA2b1jUhgDtU=
+			</data>
+			<key>hash2</key>
+			<data>
+			G/kG22KQBEoQi8V6HRTFGzjr8RVLJR5M+EUaMk5t1Qk=
+			</data>
+		</dict>
 		<key>Headers/TOPFacebookSigninPlugin.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			orOA0PSKtqYxgRPAQQPKfOd3UFY=
+			QkcBEu33wGGrEML1fVmhGmhv+dg=
 			</data>
 			<key>hash2</key>
 			<data>
-			HkyiIE3AHPWNG85F6n2HcXlHZk13EZ2o8AHBAfx2EiA=
+			YpDMng5q+jkyRZkWLiIEyLIeMZrfdvk5VvUs/Mlm/io=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

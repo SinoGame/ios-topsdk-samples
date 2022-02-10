@@ -6,6 +6,7 @@
 //
 
 #import "SceneDelegate.h"
+#import <TOPSDK/TopSDK.h>
 #import <TOPCore/TOPCore.h>
 
 @interface SceneDelegate ()

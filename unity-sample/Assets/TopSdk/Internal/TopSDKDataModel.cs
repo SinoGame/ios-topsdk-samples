@@ -1,7 +1,11 @@
-﻿using System;
+﻿using UnityEngine;
+using UnityEditor;
+using System.Collections.Generic;
+using System;
 
 namespace TopSDKDataModel
 {
+   
     //平台类型
     public enum TOPPlatformType
     {
@@ -58,12 +62,12 @@ namespace TopSDKDataModel
     [Serializable]
     public class TOPPayParameters
     {
-
+       
         public string productId;//必传
         public string productName;
         public double amount;
 
-
+       
         public TOPPayParameters(string productId, string productName, double amount)
         {
             this.productId = productId;

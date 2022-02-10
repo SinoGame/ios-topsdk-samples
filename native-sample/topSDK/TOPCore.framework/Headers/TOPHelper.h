@@ -95,4 +95,8 @@ _Pragma("clang diagnostic pop")
 #define TOPError(code, messageStr, extraStr) \
 [TOPHelper errorWithCode:(code) message:(messageStr) extra:(extraStr)]
 
+#define top_dispatchAfter(seconds, block) do { \
+  dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)((seconds) * NSEC_PER_SEC)), dispatch_get_main_queue(), block);\
+} while(0)
+
 #endif /* TOPHelper_h */

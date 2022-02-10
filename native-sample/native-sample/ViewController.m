@@ -6,7 +6,7 @@
 //
 
 #import "ViewController.h"
-#import <TOPCore/TOPCore.h>
+#import <TOPSDK/TopSDK.h>
 
 @interface ViewController ()
 
